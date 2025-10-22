@@ -18,7 +18,7 @@ body {
   background-color: hsl(0, 0%, 15%);
   border-radius: 20px;
   width: 320px;
-  padding: 20px;
+  padding: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -57,7 +57,7 @@ button {
 }
 
 button:hover {
-  background-color: white;
+  background-color: antiquewhite;
 }
 
 button:active {
@@ -92,4 +92,18 @@ button:last-child:hover {
 
 button:last-child:active {
   background-color: #d84315;
+}
+
+.cal{
+display: flex;
+align-items: center;
+}
+.cal .creator-info{
+  margin: 80px;
+  background-color: rgba(255,255,255,0.5);
+  width: fit-content;;
+  justify-content: left;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  
 }
